@@ -10,9 +10,9 @@ Scrivere e fare il check di un xml non opportunamente annidato
     </autore>
 </titolo>
 <!- gerarchia non corretta perché gli elementi così scritti 
-presentano una gerarchia sovrapposta in quanto "Carlo Collodi" 
-sarebbe parte testuale sia di "sottotitolo" che di "autore" 
-ma non annidato nel modo corretto-->
+presentano una gerarchia sovrapposta e ad un errore di sintassi nel parser
+in quanto "Carlo Collodi" sarebbe parte testuale sia di "sottotitolo" che di "autore" 
+ma non annidato nel modo corretto perché xml non permette overlap-->
 <!--esercizio corretto-->
 <titolo>
     Le avventure dei Pinocchio
