@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<text>
+    il primo xml con validazione
+</text>
+<text/> <!- file errato perché c'è un elemento fuori dalla radice-->
+
+<text>
+    <div>il primo xml con validazione </div> <!-- elemento figlio, child, del padre "text" che è la radice-->
+    <p/> <!-- elemento fratello di "div", sibling element-->
+</text>
