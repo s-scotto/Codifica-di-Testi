@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Il documento è un esercizio di Codifica di Testi.
+Scrivere e fare il check di un xml non opportunamente annidato
+-->
+<!--<titolo>
+    Le avventure dei Pinocchio
+    <sottotitolo> Storia di un burattino
+    <autore> Carlo Collodi
+    </sottotitolo>
+    </autore>
+</titolo>
+<!- gerarchia non corretta perché gli elementi così scritti 
+presentano una gerarchia sovrapposta in quanto "Carlo Collodi" 
+sarebbe parte testuale sia di "sottotitolo" che di "autore" 
+ma non annidato nel modo corretto-->
+<!--esercizio corretto-->
+<titolo>
+    Le avventure dei Pinocchio
+    <sottotitolo> Storia di un burattino </sottotitolo>
+    <autore> Carlo Collodi </autore>
+</titolo>
