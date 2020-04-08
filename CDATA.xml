@@ -3,6 +3,6 @@
 <radice>
    <htmlCode> 
         <![CDATA[<p name="p1"> paragrafo uno</p>
-        <p href="p2">Sezione Seconda</p> ]]> 
+        <p href="p2">Sezione Seconda</p> ]]>  <!--se si commette un errore nel CDATA il Parser non restituisce l'errore -->
    </htmlCode>
 </radice>
