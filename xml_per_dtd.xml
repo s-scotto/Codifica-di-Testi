@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "esempio_dtd.dtd">
+<root>
+    <TEI>
+        <header type="intestazione" lang="en">
+            ...     
+        </header>
+        <facsimile source="https://www.w3c.it/">
+            ...
+        </facsimile>
+        <text id="testo1"> 
+            ... 
+        </text>
+        <text id="testo2" type="poetry">
+            ...
+        </text>
+        <text id="testo3" type="description">
+            <seg> ... </seg>
+        </text>
+    </TEI>
+</root>

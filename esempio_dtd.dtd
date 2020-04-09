@@ -1,16 +1,25 @@
 <!--Simona Scotto di Perrotolo 501018-->
-
-<!--Denire i seguenti elementi:
-elemento root: TEI
-elementi gli:
-header (obbligatorio una occorrenza)
-facsimile (opzionale una occorrenza)
-text (obbligatorio almeno una occorrenza)
-Gli elementi header, facsimile e text hanno tutti un content
-model testuale-->
+<!--root: TEI
+Figli:
+- header(obbligatorio una volta sola)
+- facsimile(opzionale una volta sola)
+- testo(obbligatorio una o più volte)
+- testo è un mixed content con possibile elemento <seg>
+Attributi:
+- header: type:(xed, CDATA \intestazione"); lang(opzionale,
+NMTOKEN)
+- facsimile: source:(obbligatorio); ref(optionale, IDREFS)
+- testo: id(obbligatorio, ID) type(opzionale contenuto testuale)-->
 
 <!ELEMENT root (TEI)>
 <!ELEMENT TEI (header, facsimile?, text+)>
 <!ELEMENT header (#PCDATA)>
 <!ELEMENT facsimile (#PCDATA)>
-<!ELEMENT text (#PCDATA)>
+<!ELEMENT text (#PCDATA|seg)*>
+<!ELEMENT seg (#PCDATA)>
+<!ATTLIST header type CDATA #FIXED "intestazione">
+<!ATTLIST header lang NMTOKEN #IMPLIED>
+<!ATTLIST facsimile source CDATA #REQUIRED>
+<!ATTLIST facsimile ref IDREFS #IMPLIED>
+<!ATTLIST text id ID #REQUIRED>
+<!ATTLIST text type CDATA #IMPLIED>
