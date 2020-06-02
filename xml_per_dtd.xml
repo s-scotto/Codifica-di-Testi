@@ -5,7 +5,7 @@
         <header type="intestazione" lang="en">
             ...     
         </header>
-        <facsimile source="https://www.w3c.it/">
+        <facsimile source="https://www.w3c.it/"> <!-- l'attributo ref è opzionale -->
             ...
         </facsimile>
         <text id="testo1"> 
