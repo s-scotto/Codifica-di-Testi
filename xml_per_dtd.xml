@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Simona Scotto di Perrotolo 504018-->
+<!-- file xml di prova per esercizio di validazione dtd del file esempio_dtd.dtd -->
 <!DOCTYPE root SYSTEM "esempio_dtd.dtd">
 <root>
     <TEI>
         <header type="intestazione" lang="en">
             ...     
         </header>
-        <facsimile source="https://www.w3c.it/"> <!-- l'attributo ref è opzionale -->
+        <facsimile source="https://www.w3c.it/" ref="testo2 testo3"> 
             ...
         </facsimile>
         <text id="testo1"> 
