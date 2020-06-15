@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This document contains data on Codifica di
+Testi.
+Filename: 2-xml_annidato_errato.xml
+Author: Simona Scotto di Perrotolo
+Date: 6 aprile 2020 -->
+
+<!-- Scrivere e fare il check di un xml non opportunamente annidato
+-->
+<titolo>
+    Le avventure dei Pinocchio
+    <sottotitolo> Storia di un burattino
+    <autore> Carlo Collodi <!-- gerarchia sovrapposta -->
+    </sottotitolo>
+    </autore>
+</titolo>
