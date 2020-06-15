@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This document contains data on Codifica di
+Testi.
+Filename: 3-xml_annidato_corretto.xml
+Author: Simona Scotto di Perrotolo
+Date: 8 aprile 2020 -->
+
+<!--validarlo con XMLlint
+correggerlo (commentando gli errori e le modifiche)
+aggiungere un figlio (child) ad un elemento
+aggiungere un fratello (sibling) ad un elemento -->
+
+<titolo>
+    Le avventure dei Pinocchio
+    <sottotitolo> Storia di un burattino </sottotitolo> <!-- "sottotitolo" figlio (child) di "titolo" --> 
+    <autore> Carlo Collodi </autore> <!-- "autore" fratello (sibling) di "sottotitolo" -->
+</titolo>
