@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This document contains data on Codifica di
+Testi.
+Filename: 6-xml_annidato_errato.xml
+Author: Simona Scotto di Perrotolo
+Date: 3 giugno 2020 -->
+
+<!--annidare  -->
+
+<poesia>
+    ...
+    <terzina n="18">
+        <frase n="11">
+        <verso n="55">Rispuose a me: «Là dentro si martira </verso>
+        <verso n="56">Ulisse e Diomede, e così insieme</verso>
+        <verso n="57">a la vendetta vanno come a l’ira;</verso>
+    </terzina>
+    <terzina n="19">
+        <verso n="58">e dentro da la lor fiamma si geme</verso>
+        <verso n="59">l’agguato del caval che fé la porta</verso>
+        <verso n="60">onde uscì de’ Romani il gentil seme.</verso>
+        </frase> <!-- errato per gerarchia sovrapposta-->
+    </terzina>
+</poesia>
